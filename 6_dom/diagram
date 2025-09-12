@@ -1,0 +1,13 @@
+                                    window
+                                    |
+                                document
+                                    |
+                                    html
+                                    |
+                        head                    body 
+                        |                         |
+          title      meta                       div
+           |          |                   h1          p
+  text node         attribute              |          |
+                                        attribute      textnode
+             

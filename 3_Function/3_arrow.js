@@ -15,9 +15,27 @@ user.welcomeMessage()//sam , welcome to webiste
 
 
 
-function chai(){
-    console.log(this);// all values 
-    console.log(this.user);
+// function chai(){
+//     console.log(this);// all values 
+//     console.log(this.user);// no result,this not use in function
     
+// }
+// chai()
+
+const chai =()=>{
+    let username = "hitesh"
+    console.log(this);
 }
-chai()
+// const addTwo = (num1, num2) => {
+//     return num1 + num2
+// }
+
+// const addTwo = (num1, num2) =>  num1 + num2
+
+// const addTwo = (num1, num2) => ( num1 + num2 )
+
+const addTwo = (num1, num2) => ({username: "hitesh"})
+
+
+// global context value or this value for bwoser is window objevt
+//java script is singlr thread 

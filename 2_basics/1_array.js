@@ -32,7 +32,7 @@ const myn1= myArray.slice(1,3)
 console.log(myn1);
 console.log("B",myArray);
 
-const myn2 =myArray.splice(1,3)
+const myn2 =myArray.splice(1,3)// it manipluate the array and give the out put till the last index of given
 console.log("C", myArray);
 console.log(myn2);
 
