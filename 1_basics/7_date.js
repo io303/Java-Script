@@ -1,31 +1,31 @@
 let myDate=new Date()
 
 console.log(myDate);
-// console.log(myDate.toString());
-// console.log(myDate.toDateString());
-// console.log(myDate.toTimeString());
-// console.log(myDate.toISOString());
-// console.log(myDate.toJSON());
+console.log(myDate.toString());
+console.log(myDate.toDateString());
+console.log(myDate.toTimeString());
+console.log(myDate.toISOString());
+console.log(myDate.toJSON());
 
-let myCreateDate = new Date("01-14-2023")
-let my=new Date(2023,0,23,5,3)// month srt with zero and 
-console.log(my.toLocaleString());
+// let myCreateDate = new Date("01-14-2023")
+// let my=new Date(2023,0,23,5,3)// month srt with zero and 
+// console.log(my.toLocaleString());
 
-let myTimeStamp = Date.now()
+// let myTimeStamp = Date.now()
 
-// console.log(myTimeStamp);
-// console.log(myCreatedDate.getTime());
-// console.log(Math.floor(Date.now()/1000)); time in seconds 
+// // console.log(myTimeStamp);
+// // console.log(myCreatedDate.getTime());
+// // console.log(Math.floor(Date.now()/1000)); time in seconds 
 
-let newDate = new Date()
-console.log(newDate);
-console.log(newDate.getMonth() + 1);
-console.log(newDate.getDay());
+// let newDate = new Date()
+// console.log(newDate);
+// console.log(newDate.getMonth() + 1);
+// console.log(newDate.getDay());
 
-// `${newDate.getDay()} and the time `
+// // `${newDate.getDay()} and the time `
 
-newDate.toLocaleString('default', {
-    weekday: "long",
+// newDate.toLocaleString('default', {
+//     weekday: "long",
     
-})
+// })
 
